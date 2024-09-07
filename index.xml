@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>philip部落格</title>
+    <link>https://philip.f.lin.github.io/</link>
+    <description>Recent content on philip部落格</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://philip.f.lin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java Demo</title>
+      <link>https://philip.f.lin.github.io/posts/java-demo/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/posts/java-demo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>More Rich Content</title>
+      <link>https://philip.f.lin.github.io/posts/more-rich-content/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/posts/more-rich-content/</guid>
+      <description>&lt;p&gt;Hugo Coder provides some Custom Shortcodes.&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading&#34;&gt;&#xA;  &#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#heading&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>Autores de Hugo</title>
+      <link>https://philip.f.lin.github.io/autores/autores-de-hugo/</link>
+      <pubDate>Thu, 05 Jan 2023 01:15:52 +0100</pubDate>
+      <guid>https://philip.f.lin.github.io/autores/autores-de-hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>temas</title>
+      <link>https://philip.f.lin.github.io/categoria/temas/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
+      <guid>https://philip.f.lin.github.io/categoria/temas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>sintaxe</title>
+      <link>https://philip.f.lin.github.io/categoria/sintaxe/</link>
+      <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
+      <guid>https://philip.f.lin.github.io/categoria/sintaxe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Códigos curtos</title>
+      <link>https://philip.f.lin.github.io/tags/shortcodes/_index.pt-br/</link>
+      <pubDate>Wed, 04 Jan 2023 11:51:36 +0100</pubDate>
+      <guid>https://philip.f.lin.github.io/tags/shortcodes/_index.pt-br/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://philip.f.lin.github.io/about.pt-br/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/about.pt-br/</guid>
+      <description>Escrito em Go, Hugo é um gerador de sites estáticos de código aberto disponível sobre a licença Apache Licence 2.0. O Hugo suporta TOML, YAML e JSON como arquivos de dados, Markdown e HTML como arquivos de conteúdo, e usa shortcodes para adicionar conteúdos ricos. Outras funcionalidades notaveis são taxonomias, modo multilingual, processamento de imagens, formatos de saída customizaveis, minificação de HTML/CSS/JS e suporte a fluxos SASS/SCSS.&#xA;O Hugo faz o uso de vários projetos de código aberto incluíndo:</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://philip.f.lin.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/contact/</guid>
+      <description>Follow me, @johndoe.</description>
+    </item>
+    <item>
+      <title>Contato</title>
+      <link>https://philip.f.lin.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/contact/</guid>
+      <description>Me siga em @joaoninguem.</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://philip.f.lin.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/projects/</guid>
+      <description>Nothing to see here&amp;hellip; Move along!</description>
+    </item>
+    <item>
+      <title>Projetos</title>
+      <link>https://philip.f.lin.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/projects/</guid>
+      <description>Nada para ver aqui.. Circulando!</description>
+    </item>
+  </channel>
+</rss>

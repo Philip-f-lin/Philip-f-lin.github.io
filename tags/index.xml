@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on philip部落格</title>
+    <link>https://philip.f.lin.github.io/tags/</link>
+    <description>Recent content in Tags on philip部落格</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://philip.f.lin.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>https://philip.f.lin.github.io/tags/java/</link>
+      <pubDate>Sat, 07 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>https://philip.f.lin.github.io/tags/css/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>https://philip.f.lin.github.io/tags/html/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://philip.f.lin.github.io/tags/hugo/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Markdown</title>
+      <link>https://philip.f.lin.github.io/tags/markdown/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortcodes</title>
+      <link>https://philip.f.lin.github.io/tags/shortcodes/</link>
+      <pubDate>Tue, 11 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://philip.f.lin.github.io/tags/shortcodes/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
