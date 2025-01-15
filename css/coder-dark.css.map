@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "coder-dark.css",
-	"sourceRoot": "/Users/linzhuofei/Desktop/exampleSite",
+	"sourceRoot": "/Users/linzhuofei/Desktop/履歷/java後端履歷/exampleSite",
 	"sources": [
 		"themes/hugo-coder/assets/scss/coder-dark.scss",
 		"themes/hugo-coder/assets/scss/_variables.scss",
