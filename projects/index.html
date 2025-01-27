@@ -3,7 +3,7 @@
 
 <head>
   <title>
-  Projetos · philip部落格
+  Friends - 尋找志同道合的夥伴 · philip部落格
 </title>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,19 +13,64 @@
 
 
 <meta name="author" content="林卓非">
-<meta name="description" content="Nada para ver aqui.. Circulando!">
+<meta name="description" content="作品連結
+專案介紹 Link to heading 這是一個基於 Vue &#43; SpringBoot 的前後端分離開發專案，
+協助使用者找到興趣相符的夥伴，共同建立 side project。
+主要功能包括：
+透過標籤查詢使用者 推薦相似夥伴 建立與加入隊伍 首頁畫面
+技術棧 Link to heading 前端：Vue 後端：SpringBoot &#43; SpringMVC &#43; Mybatis Plus 資料庫：MySQL 快取：Redis 專案重點與亮點 Link to heading 善用 Java 8 Stream API 與 Lambda 簡化程式碼
+在處理「關聯隊伍清單中已加入成員」等較複雜的集合操作時，使用 Java 8 Stream API 與 Lambda，能讓程式碼更具可讀性與維護性。
+Redisson 分散式鎖確保操作唯一性
+為避免同一使用者重複加入隊伍或重複建立隊伍，透過 Redisson 分散式鎖實現操作的唯一性，
+確保每次請求都能得到正確且一致的結果。
+定時快取預熱提升首頁載入速度
+透過 Spring Scheduler 進行定時快取預熱，並運用分散式鎖機制避免多台機器同時執行定時任務，
+顯著縮短系統首次使用時的等待時間。
+自訂線程池與 CompletableFuture 進行併發處理
+針對大批量資料庫匯入需求，搭配自訂線程池與 CompletableFuture 實現高效併發。
+實測顯示，匯入 10 萬筆 資料的時間由 8 秒 縮短至 4.">
 <meta name="keywords" content="blog,developer,personal">
 <meta name="fediverse:creator" content="" />
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Projetos">
-  <meta name="twitter:description" content="Nada para ver aqui.. Circulando!">
+  <meta name="twitter:title" content="Friends - 尋找志同道合的夥伴">
+  <meta name="twitter:description" content="作品連結
+專案介紹 Link to heading 這是一個基於 Vue &#43; SpringBoot 的前後端分離開發專案，
+協助使用者找到興趣相符的夥伴，共同建立 side project。
+主要功能包括：
+透過標籤查詢使用者 推薦相似夥伴 建立與加入隊伍 首頁畫面
+技術棧 Link to heading 前端：Vue 後端：SpringBoot &#43; SpringMVC &#43; Mybatis Plus 資料庫：MySQL 快取：Redis 專案重點與亮點 Link to heading 善用 Java 8 Stream API 與 Lambda 簡化程式碼
+在處理「關聯隊伍清單中已加入成員」等較複雜的集合操作時，使用 Java 8 Stream API 與 Lambda，能讓程式碼更具可讀性與維護性。
+Redisson 分散式鎖確保操作唯一性
+為避免同一使用者重複加入隊伍或重複建立隊伍，透過 Redisson 分散式鎖實現操作的唯一性，
+確保每次請求都能得到正確且一致的結果。
+定時快取預熱提升首頁載入速度
+透過 Spring Scheduler 進行定時快取預熱，並運用分散式鎖機制避免多台機器同時執行定時任務，
+顯著縮短系統首次使用時的等待時間。
+自訂線程池與 CompletableFuture 進行併發處理
+針對大批量資料庫匯入需求，搭配自訂線程池與 CompletableFuture 實現高效併發。
+實測顯示，匯入 10 萬筆 資料的時間由 8 秒 縮短至 4.">
 
 <meta property="og:url" content="https://philip.f.lin.github.io/projects/">
   <meta property="og:site_name" content="philip部落格">
-  <meta property="og:title" content="Projetos">
-  <meta property="og:description" content="Nada para ver aqui.. Circulando!">
+  <meta property="og:title" content="Friends - 尋找志同道合的夥伴">
+  <meta property="og:description" content="作品連結
+專案介紹 Link to heading 這是一個基於 Vue &#43; SpringBoot 的前後端分離開發專案，
+協助使用者找到興趣相符的夥伴，共同建立 side project。
+主要功能包括：
+透過標籤查詢使用者 推薦相似夥伴 建立與加入隊伍 首頁畫面
+技術棧 Link to heading 前端：Vue 後端：SpringBoot &#43; SpringMVC &#43; Mybatis Plus 資料庫：MySQL 快取：Redis 專案重點與亮點 Link to heading 善用 Java 8 Stream API 與 Lambda 簡化程式碼
+在處理「關聯隊伍清單中已加入成員」等較複雜的集合操作時，使用 Java 8 Stream API 與 Lambda，能讓程式碼更具可讀性與維護性。
+Redisson 分散式鎖確保操作唯一性
+為避免同一使用者重複加入隊伍或重複建立隊伍，透過 Redisson 分散式鎖實現操作的唯一性，
+確保每次請求都能得到正確且一致的結果。
+定時快取預熱提升首頁載入速度
+透過 Spring Scheduler 進行定時快取預熱，並運用分散式鎖機制避免多台機器同時執行定時任務，
+顯著縮短系統首次使用時的等待時間。
+自訂線程池與 CompletableFuture 進行併發處理
+針對大批量資料庫匯入需求，搭配自訂線程池與 CompletableFuture 實現高效併發。
+實測顯示，匯入 10 萬筆 資料的時間由 8 秒 縮短至 4.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
 
@@ -113,11 +158,11 @@
         
           
             <li class="navigation-item">
-              <a class="navigation-link " href="https://drive.google.com/file/d/1Av4EvFlrTkZbLsdtMOLZPt3nKY_xFy79/view?usp=share_link">關於我</a>
+              <a class="navigation-link " href="/">首頁</a>
             </li>
           
             <li class="navigation-item">
-              <a class="navigation-link " href="/posts/">所有文章</a>
+              <a class="navigation-link " href="https://drive.google.com/file/d/1s2i0zXGnNqFjAw27xnyRNtjFrdGl99AF/view?usp=share_link">關於我</a>
             </li>
           
             <li class="navigation-item">
@@ -139,12 +184,77 @@
     <header>
       <h1 class="title">
         <a class="title-link" href="https://philip.f.lin.github.io/projects/">
-          Projetos
+          Friends - 尋找志同道合的夥伴
         </a>
       </h1>
     </header>
 
-    <p>Nada para ver aqui.. Circulando!</p>
+    <p><a href="http://52.195.250.250/"  class="external-link" target="_blank" rel="noopener">作品連結</a></p>
+<h3 id="專案介紹">
+  專案介紹
+  <a class="heading-link" href="#%e5%b0%88%e6%a1%88%e4%bb%8b%e7%b4%b9">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>這是一個基於 Vue + SpringBoot 的前後端分離開發專案，<br>
+協助使用者找到興趣相符的夥伴，共同建立 side project。<br>
+主要功能包括：</p>
+<ul>
+<li>透過標籤查詢使用者</li>
+<li>推薦相似夥伴</li>
+<li>建立與加入隊伍</li>
+</ul>
+<figure><img src="/images/1.jpg"
+    alt="Friends 專案首頁畫面" width="30%"><figcaption>
+      <p>首頁畫面</p>
+    </figcaption>
+</figure>
+
+<h3 id="技術棧">
+  技術棧
+  <a class="heading-link" href="#%e6%8a%80%e8%a1%93%e6%a3%a7">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>前端：<strong>Vue</strong></li>
+<li>後端：<strong>SpringBoot</strong> + <strong>SpringMVC</strong> + <strong>Mybatis Plus</strong></li>
+<li>資料庫：<strong>MySQL</strong></li>
+<li>快取：<strong>Redis</strong></li>
+</ul>
+<h3 id="專案重點與亮點">
+  專案重點與亮點
+  <a class="heading-link" href="#%e5%b0%88%e6%a1%88%e9%87%8d%e9%bb%9e%e8%88%87%e4%ba%ae%e9%bb%9e">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ol>
+<li>
+<p><!-- raw HTML omitted -->善用 Java 8 Stream API 與 Lambda 簡化程式碼<!-- raw HTML omitted --><br>
+在處理「關聯隊伍清單中已加入成員」等較複雜的集合操作時，使用 <!-- raw HTML omitted -->Java 8 Stream API<!-- raw HTML omitted --> 與 <!-- raw HTML omitted -->Lambda<!-- raw HTML omitted -->，能讓程式碼更具可讀性與維護性。</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->Redisson 分散式鎖確保操作唯一性<!-- raw HTML omitted --><br>
+為避免同一使用者重複加入隊伍或重複建立隊伍，透過 <!-- raw HTML omitted -->Redisson<!-- raw HTML omitted --> 分散式鎖實現操作的唯一性，<br>
+確保每次請求都能得到正確且一致的結果。</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->定時快取預熱提升首頁載入速度<!-- raw HTML omitted --><br>
+透過 <!-- raw HTML omitted -->Spring Scheduler<!-- raw HTML omitted --> 進行定時快取預熱，並運用分散式鎖機制避免多台機器同時執行定時任務，<br>
+顯著縮短系統首次使用時的等待時間。</p>
+</li>
+<li>
+<p><!-- raw HTML omitted -->自訂線程池與 CompletableFuture 進行併發處理<!-- raw HTML omitted --><br>
+針對大批量資料庫匯入需求，搭配自訂線程池與 <!-- raw HTML omitted -->CompletableFuture<!-- raw HTML omitted --> 實現高效併發。</p>
+<ul>
+<li>實測顯示，匯入 <!-- raw HTML omitted -->10 萬筆<!-- raw HTML omitted --> 資料的時間由 <!-- raw HTML omitted -->8 秒<!-- raw HTML omitted --> 縮短至 <!-- raw HTML omitted -->4.8 秒<!-- raw HTML omitted -->，<br>
+效能提升約 <!-- raw HTML omitted -->67%<!-- raw HTML omitted -->。</li>
+</ul>
+</li>
+</ol>
 
   </article>
 </section>
