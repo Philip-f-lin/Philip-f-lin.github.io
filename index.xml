@@ -83,7 +83,7 @@
       <link>https://philip.f.lin.github.io/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://philip.f.lin.github.io/projects/</guid>
-      <description>項目介紹 Link to heading 這是一個基於 Vue + SpringBoot 的前後端分離開發項目，&#xA;協助使用者找到興趣相符的夥伴，共同建立 side project。&#xA;主要功能包括：&#xA;推薦相似夥伴 透過標籤查詢使用者 建立與加入隊伍 項目連結&#xA;測試帳號 Link to heading 帳號：Test1234，密碼：12345678&#xA;GitHub 儲存庫 Link to heading 前端 GitHub&#xA;後端 GitHub&#xA;項目架構 Link to heading 技術棧 Link to heading 前端：Vue + Vant UI 後端：SpringBoot + SpringMVC + Mybatis Plus 資料庫：MySQL 快取：Redis 連線：HTTPS + Nginx + Session 雲端：AWS S3 + AWS EC2 開發工具：Git + GitHub 功能說明 Link to heading 首頁畫面</description>
+      <description>項目介紹 Link to heading 這是一個基於 Vue + SpringBoot 的前後端分離開發項目，&#xA;協助使用者找到興趣相符的夥伴，共同建立 side project。&#xA;主要功能包括：&#xA;推薦相似夥伴 透過標籤查詢使用者 建立與加入隊伍 項目連結&#xA;測試帳號 Link to heading 帳號：Test1234，密碼：12345678&#xA;GitHub 儲存庫 Link to heading 前端 GitHub&#xA;後端 GitHub&#xA;項目架構 Link to heading 技術棧 Link to heading 前端：Vue + Vant UI 後端：SpringBoot + SpringMVC + Mybatis Plus 資料庫：MySQL 快取：Redis 連線：HTTPS + Nginx + Session 雲端：AWS S3 + AWS EC2 開發工具：Git + GitHub 畫面展示 Link to heading 首頁畫面</description>
     </item>
     <item>
       <title>Projetos</title>
